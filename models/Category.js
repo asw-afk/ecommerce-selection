@@ -10,7 +10,7 @@ Category.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false, 
-      autoIncrement: true,
+      autoIncrement: true
    },
    category_name:{
       type: DataTypes.STRING,
@@ -22,7 +22,7 @@ Category.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'category',
+    modelName: 'Category'
   }
 );
 
